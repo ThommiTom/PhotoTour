@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4574C09E2849DDED00565C29 /* PhotoTourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574C09D2849DDED00565C29 /* PhotoTourApp.swift */; };
+		4574C0A02849DDED00565C29 /* PhotoTourListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574C09F2849DDED00565C29 /* PhotoTourListView.swift */; };
+		4574C0A22849DDED00565C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4574C0A12849DDED00565C29 /* Assets.xcassets */; };
+		4574C0A52849DDED00565C29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4574C0A42849DDED00565C29 /* Preview Assets.xcassets */; };
+		4574C0AD2849DE2300565C29 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574C0AC2849DE2300565C29 /* ImagePicker.swift */; };
+		4574C0B02849DE5D00565C29 /* FileManager-DocumentDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574C0AF2849DE5D00565C29 /* FileManager-DocumentDirectory.swift */; };
+		4574C0B32849DEA300565C29 /* TourManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574C0B22849DEA300565C29 /* TourManager.swift */; };
+		4574C0B62849DECC00565C29 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574C0B52849DECC00565C29 /* Photo.swift */; };
+		4574C0B92849F50800565C29 /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574C0B82849F50800565C29 /* AddPhotoView.swift */; };
+		4574C0BB2849F84500565C29 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574C0BA2849F84500565C29 /* EditorView.swift */; };
+		4574C0BD2849FBDE00565C29 /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574C0BC2849FBDE00565C29 /* PhotoDetailView.swift */; };
+		4574C0BF2849FBF400565C29 /* PhotoRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574C0BE2849FBF400565C29 /* PhotoRowItem.swift */; };
+		4574C0C1284A377B00565C29 /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574C0C0284A377B00565C29 /* LocationFetcher.swift */; };
+		4574C0C4284A518E00565C29 /* PictureTaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574C0C3284A518E00565C29 /* PictureTaker.swift */; };
+		4574C0C6284A5B9000565C29 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574C0C5284A5B9000565C29 /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4574C09A2849DDED00565C29 /* PhotoTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4574C09D2849DDED00565C29 /* PhotoTourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTourApp.swift; sourceTree = "<group>"; };
+		4574C09F2849DDED00565C29 /* PhotoTourListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTourListView.swift; sourceTree = "<group>"; };
+		4574C0A12849DDED00565C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4574C0A42849DDED00565C29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4574C0AC2849DE2300565C29 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		4574C0AF2849DE5D00565C29 /* FileManager-DocumentDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentDirectory.swift"; sourceTree = "<group>"; };
+		4574C0B22849DEA300565C29 /* TourManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourManager.swift; sourceTree = "<group>"; };
+		4574C0B52849DECC00565C29 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		4574C0B82849F50800565C29 /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
+		4574C0BA2849F84500565C29 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		4574C0BC2849FBDE00565C29 /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
+		4574C0BE2849FBF400565C29 /* PhotoRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRowItem.swift; sourceTree = "<group>"; };
+		4574C0C0284A377B00565C29 /* LocationFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
+		4574C0C2284A384100565C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4574C0C3284A518E00565C29 /* PictureTaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureTaker.swift; sourceTree = "<group>"; };
+		4574C0C5284A5B9000565C29 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4574C0972849DDED00565C29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4574C0912849DDEC00565C29 = {
+			isa = PBXGroup;
+			children = (
+				4574C09C2849DDED00565C29 /* PhotoTour */,
+				4574C09B2849DDED00565C29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4574C09B2849DDED00565C29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4574C09A2849DDED00565C29 /* PhotoTour.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4574C09C2849DDED00565C29 /* PhotoTour */ = {
+			isa = PBXGroup;
+			children = (
+				4574C0C2284A384100565C29 /* Info.plist */,
+				4574C09D2849DDED00565C29 /* PhotoTourApp.swift */,
+				4574C0B12849DE9100565C29 /* Extensions */,
+				4574C0AE2849DE2F00565C29 /* Utilities */,
+				4574C0B72849DED300565C29 /* Model */,
+				4574C0AB2849DE1500565C29 /* View */,
+				4574C0B42849DEA700565C29 /* ViewModel */,
+				4574C0A12849DDED00565C29 /* Assets.xcassets */,
+				4574C0A32849DDED00565C29 /* Preview Content */,
+			);
+			path = PhotoTour;
+			sourceTree = "<group>";
+		};
+		4574C0A32849DDED00565C29 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4574C0A42849DDED00565C29 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4574C0AB2849DE1500565C29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4574C09F2849DDED00565C29 /* PhotoTourListView.swift */,
+				4574C0B82849F50800565C29 /* AddPhotoView.swift */,
+				4574C0BA2849F84500565C29 /* EditorView.swift */,
+				4574C0BC2849FBDE00565C29 /* PhotoDetailView.swift */,
+				4574C0BE2849FBF400565C29 /* PhotoRowItem.swift */,
+				4574C0C5284A5B9000565C29 /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4574C0AE2849DE2F00565C29 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4574C0AC2849DE2300565C29 /* ImagePicker.swift */,
+				4574C0C3284A518E00565C29 /* PictureTaker.swift */,
+				4574C0C0284A377B00565C29 /* LocationFetcher.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4574C0B12849DE9100565C29 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4574C0AF2849DE5D00565C29 /* FileManager-DocumentDirectory.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4574C0B42849DEA700565C29 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4574C0B22849DEA300565C29 /* TourManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4574C0B72849DED300565C29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4574C0B52849DECC00565C29 /* Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4574C0992849DDED00565C29 /* PhotoTour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4574C0A82849DDED00565C29 /* Build configuration list for PBXNativeTarget "PhotoTour" */;
+			buildPhases = (
+				4574C0962849DDED00565C29 /* Sources */,
+				4574C0972849DDED00565C29 /* Frameworks */,
+				4574C0982849DDED00565C29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoTour;
+			productName = PhotoTour;
+			productReference = 4574C09A2849DDED00565C29 /* PhotoTour.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4574C0922849DDEC00565C29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4574C0992849DDED00565C29 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 4574C0952849DDEC00565C29 /* Build configuration list for PBXProject "PhotoTour" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4574C0912849DDEC00565C29;
+			productRefGroup = 4574C09B2849DDED00565C29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4574C0992849DDED00565C29 /* PhotoTour */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4574C0982849DDED00565C29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4574C0A52849DDED00565C29 /* Preview Assets.xcassets in Resources */,
+				4574C0A22849DDED00565C29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4574C0962849DDED00565C29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4574C0C4284A518E00565C29 /* PictureTaker.swift in Sources */,
+				4574C0BF2849FBF400565C29 /* PhotoRowItem.swift in Sources */,
+				4574C0B62849DECC00565C29 /* Photo.swift in Sources */,
+				4574C0AD2849DE2300565C29 /* ImagePicker.swift in Sources */,
+				4574C0C6284A5B9000565C29 /* MapView.swift in Sources */,
+				4574C0B92849F50800565C29 /* AddPhotoView.swift in Sources */,
+				4574C0C1284A377B00565C29 /* LocationFetcher.swift in Sources */,
+				4574C0A02849DDED00565C29 /* PhotoTourListView.swift in Sources */,
+				4574C0B32849DEA300565C29 /* TourManager.swift in Sources */,
+				4574C0BB2849F84500565C29 /* EditorView.swift in Sources */,
+				4574C0B02849DE5D00565C29 /* FileManager-DocumentDirectory.swift in Sources */,
+				4574C09E2849DDED00565C29 /* PhotoTourApp.swift in Sources */,
+				4574C0BD2849FBDE00565C29 /* PhotoDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4574C0A62849DDED00565C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4574C0A72849DDED00565C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4574C0A92849DDED00565C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoTour/Preview Content\"";
+				DEVELOPMENT_TEAM = 928Q5FMY5V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoTour/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Photo Tour wants access your camera.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Photo Tour wants access and save your location, when you add a new photo.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.schatton.thomas.PhotoTour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4574C0AA2849DDED00565C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoTour/Preview Content\"";
+				DEVELOPMENT_TEAM = 928Q5FMY5V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhotoTour/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Photo Tour wants access your camera.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Photo Tour wants access and save your location, when you add a new photo.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.schatton.thomas.PhotoTour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4574C0952849DDEC00565C29 /* Build configuration list for PBXProject "PhotoTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4574C0A62849DDED00565C29 /* Debug */,
+				4574C0A72849DDED00565C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4574C0A82849DDED00565C29 /* Build configuration list for PBXNativeTarget "PhotoTour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4574C0A92849DDED00565C29 /* Debug */,
+				4574C0AA2849DDED00565C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4574C0922849DDEC00565C29 /* Project object */;
+}
